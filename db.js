@@ -1,8 +1,9 @@
 const mongoose = require('mongoose');
-require('dotenv').config();
+//require('dotenv').config();
 
-//const mongoURL = 'mongodb://localhost:27017/hotels' // Replace mydatabase with whatever you want
-const mongoURL = process.env.MONGODB_URL;
+const mongoURL = 'mongodb://localhost:27017/hotels' // Replace mydatabase with whatever you want
+//const mongoURL = process.env.MONGODB_URL;
+//const mongoURL = 'mongodb+srv://puneetS007:Puneet74171@cluster0.qrf5lby.mongodb.net/'
 // Set up MongoDB Connection
 mongoose.connect(mongoURL)
 
