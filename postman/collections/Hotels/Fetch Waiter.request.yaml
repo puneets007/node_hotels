@@ -1,0 +1,6 @@
+$kind: http-request
+name: Fetch Waiter
+description: ""
+url: https://hotel-yisk.onrender.com/person/Waiter
+method: GET
+order: 1789459832127
